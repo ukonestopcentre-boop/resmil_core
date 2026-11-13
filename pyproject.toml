@@ -1,0 +1,18 @@
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "resmil_core"
+authors = [
+    {name = "RESMIL Financial Institution Ltd"}
+]
+description = "RESMIL Desk styling and extensions"
+readme = "README.md"
+requires-python = ">=3.10"
+dynamic = ["version"]
+dependencies = []
+
+[tool.flit.module]
+name = "resmil_core"
