@@ -1,0 +1,5 @@
+.workspace .widget.number-widget-box .widget-title span.ellipsis {
+    color: #FFFFFF !important;
+    opacity: 1 !important;
+    -webkit-text-fill-color: #FFFFFF !important;
+}
